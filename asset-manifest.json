@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.735cf0d3.css",
+    "main.js": "/static/js/main.7ebfbe87.js",
+    "static/media/jarvis_crop.png": "/static/media/jarvis_crop.a50c775269edbd16aaab.png",
+    "static/media/PowerShellPrew.png": "/static/media/PowerShellPrew.84efbfc884b8ed66ec5a.png",
+    "static/media/t42ai.png": "/static/media/t42ai.076abe941a9f87a8a4e2.png",
+    "static/media/KabelekPrew.png": "/static/media/KabelekPrew.4809200e4664e92e9322.png",
+    "static/media/nokia.jfif": "/static/media/nokia.397292afe0a95726a757.jfif",
+    "static/media/Neumann_Janos_Informatikai_Technikum.webp": "/static/media/Neumann_Janos_Informatikai_Technikum.bc61afe78bdbc777392d.webp",
+    "static/media/hajo.png": "/static/media/hajo.4e6f43c934a6dbd92a67.png",
+    "static/media/openai.png": "/static/media/openai.8b81e7d5c5c89fae4e37.png",
+    "static/media/jarvis.jpg": "/static/media/jarvis.29e134782a0e00552805.jpg",
+    "static/media/Microsoft_Azure.svg.png": "/static/media/Microsoft_Azure.svg.27603aaf1cc44b44deae.png",
+    "static/media/python.png": "/static/media/python.f0c9d64775aac23759fe.png",
+    "static/media/TorpedoGameplay.png": "/static/media/TorpedoGameplay.61e1e786e13c0e2a23fa.png",
+    "static/media/workImg.jpeg": "/static/media/workImg.e4c66be6ae2ae4f83608.jpeg",
+    "static/media/cpp.png": "/static/media/cpp.791fdd0c54ed00d9a96e.png",
+    "static/media/mssql.png": "/static/media/mssql.aa484baeefbe583572a3.png",
+    "static/media/Office.webp": "/static/media/Office.80ef97871d84d56a4e59.webp",
+    "static/media/langchain.png": "/static/media/langchain.defd3f3b82d14b4608aa.png",
+    "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/aws.png": "/static/media/aws.95bdee6b9922c9b94fd5.png",
+    "static/media/node.png": "/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/sally.png": "/static/media/sally.2ab2d76ef5e020f11b3b.png",
+    "static/media/csharp.png": "/static/media/csharp.d7b6af576e15aed4f674.png",
+    "static/media/github.png": "/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/html.png": "/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/PowerShell.png": "/static/media/PowerShell.a1657fd7d26235a2fa2c.png",
+    "static/media/llama-index.png": "/static/media/llama-index.a9f82a75e05936a7a6bb.png",
+    "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/index.html",
+    "main.735cf0d3.css.map": "/static/css/main.735cf0d3.css.map",
+    "main.7ebfbe87.js.map": "/static/js/main.7ebfbe87.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.735cf0d3.css",
+    "static/js/main.7ebfbe87.js"
+  ]
+}
