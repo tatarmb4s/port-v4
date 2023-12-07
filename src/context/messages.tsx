@@ -10,6 +10,7 @@ export const MessagesContext = createContext<{
     updateMessage: (id: string, updateFn: (prevText: string) => string) => void;
     setIsMessageUpdating: (isUpdating: boolean) => void;
     tryAddMessage: (message: Message) => void;
+    resetMessages: () => void;
 }>({
     messages: {},
     isMessageUpdating: false,
@@ -18,6 +19,7 @@ export const MessagesContext = createContext<{
     updateMessage: () => {},
     setIsMessageUpdating: () => {},
     tryAddMessage: () => {},
+    resetMessages: () => {},
 });
 
 export function MessagesProvider({children}:{children: ReactNode}) {
@@ -42,6 +44,11 @@ export function MessagesProvider({children}:{children: ReactNode}) {
             console.log("The message exists");
         }
     }
+
+    const resetMessages = () => {
+        setMessages({});
+    }
+    
     
     const removeMessage = (id: string) => {
         const {[id]: _, ...rest} = messages;
@@ -80,6 +87,7 @@ export function MessagesProvider({children}:{children: ReactNode}) {
             updateMessage,
             setIsMessageUpdating,
             tryAddMessage,
+            resetMessages,
         }}>
             {children}
         </MessagesContext.Provider>

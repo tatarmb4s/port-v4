@@ -24,10 +24,12 @@ const ChatPanel = () => {
     updateMessage,
     setIsMessageUpdating,
     tryAddMessage,
+    resetMessages,
   } = useContext(MessagesContext);
 
   const [inputValue, setInputValue] = useState('');
   const messagesEndRef = useRef(null);
+  
 
   const socket = getSocket();
   useEffect(() => {
@@ -142,12 +144,12 @@ const ChatPanel = () => {
 
 
   const ClearHistory = () => { 
-    localStorage.removeItem("chatMessages");
-    // setMessages([]);
-   }
+    resetMessages();
+  }
+
 
   return (
-    <div className="absolute bottom-16 right-0 bg-white p-0 mb-5 rounded-lg shadow-lg w-80 md:w-[40rem] ">
+    <div className="absolute bottom-16 right-0 bg-white p-0 mb-5 rounded-lg shadow-lg w-80 md:w-[40rem]">
       <div className="p-2 rounded-t-lg bg-gradient-to-r from-aiMsg1 to-aiMsg2">
         <h1 className="text-center text-white font-bold">AI Chat</h1>
       </div>

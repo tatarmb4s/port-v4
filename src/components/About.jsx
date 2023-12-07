@@ -20,7 +20,7 @@ const About = () => {
                         Harmadikos korom óta tanulok programozni, alapesetben Windows OS-t futtató számítógépen. Írtam programot C#-ban, scriptet PowerShell-ben és MS-SQL-ben. Alapszinten tudok programozni JavaScriptben, és év végére Pythonban is eljutok odáig.
                         Tudok LEGO EV3 robotot programozni, mellyel részt vettem a 2019-es WRO (World Robot Olimpic) verseny mellett más robotversenyen is.
 
-                        Jelenleg többnyire valamilyen mesterséges intelligencia alapú projekt fejlesztésében veszek részt, melyeket többnyire Pythonban írok.
+                        Jelenleg többnyire valamilyen mesterséges intelligencia alapú projekt fejlesztésében veszek részt, melyeket többnyire Pythonban írok. A mesterséges intelligenciában érdekel a text-to-speech és a speech-to text, a large-language modellek, és az image-to-text technológia. Célom, ezekben minnél több tudést és tapasztalatot szerezni.
                     </p>
                 </div>
             </div>

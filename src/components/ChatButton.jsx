@@ -11,7 +11,7 @@ const ChatButton = ({ showChat, handleChatToggle }) => {
   // };
 
   return (
-    <div className="fixed bottom-4 right-4 z-[3]" >
+    <div className="fixed bottom-4 right-4 z-[10]" >
       <button
       id='toggleAI'
         className="bg-blue-500 text-white p-4 rounded-full shadow-lg focus:outline-none"

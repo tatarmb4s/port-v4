@@ -31,12 +31,13 @@ const T42 = ({ handleChatToggle }) => {
         </h1>
 
         {/* <h2 className='text-3xl sm:text-6xl font-bold text-head2'>IT Student at NJIT</h2> */}
-        <p className='text-head2 py-4 max-w-[700px]'>Röviden ismeretve, a cél első körben egy text-to-speech, speech-to-text, video-to-text modell csládot létrehozni. Hosszútávú cél pedig egy text/voice/image/video-to-text/voice/image modell létrehozása. <br></br><br></br>  A rendszer rendelkezni fog az okos otthonok és a teljes értékű virtuális asszisztens minden funkciójával. <br></br><br></br> 
+        <p className='text-head2 py-4 max-w-[700px]'>Röviden ismeretve, a cél első körben egy text-to-speech, speech-to-text, video-to-text modell csládot létrehozni. Hosszútávú cél pedig egy text/voice/image/video-to-text/voice/image modell létrehozása. <br></br><br></br>  A rendszer rendelkezni fog az okos otthonok és a teljes értékű virtuális asszisztens minden funkciójával. Emellett segít a vak és mozgáskorlátozott embereknek. 2019 óta dolgozom rajta. <br></br><br></br> 
         <ul>              
 
           <li><FontAwesomeIcon icon={faSquareCheck} className='ml-3 group-hover:hidden text-zold' /> Enterprise ready features</li>
           <li><FontAwesomeIcon icon={faSquareCheck} className='ml-3 group-hover:hidden text-zold' /> Privacy-focused</li>
           <li><FontAwesomeIcon icon={faSquareCheck} className='ml-3 group-hover:hidden text-zold' /> Self hosted version</li>
+          <li><FontAwesomeIcon icon={faSquareCheck} className='ml-3 group-hover:hidden text-zold' /> Easy to use</li>
 
         </ul>
          <br></br> </p>

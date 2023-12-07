@@ -118,7 +118,7 @@ const Work = () => {
         {/* Container */}
         <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-4">
           <Grigitem className="" name='Kétszemélyes Torpedó' content="A klasszikus torpedó játék, csak a neten. Jelenleg két játékos játszhat vele stabilan. A játékba egy kód segítségével lehet belépni, melyet a meccset indító fél ad meg. Ezután a másik fél beírja a kódot. Mivel még előfordulnak benne bugok, ezeket kéretik nem kihasználni. " image={TorpedoGameplay} demo='http://torpedo.t42.hu/' codeUrl='#code' target='_blank' isDemo={true} isSource={false} />
-          <Grigitem className="" name='T42 AI' content="Ez egy mesterséges inteligencia lesz, mely segít a vak, és mozgáskorlátozott embereknek, illetve az otthoni rendszreket vezérli. Egy aszisztens amely képes beszélni a Microsoft Azure segítségével. Egyedileg tanított gpt-3.5-turbo és gpt-4 modelleket használ majd." image={JarvisAI} demo='#demo' codeUrl='#code' />
+          <Grigitem className="" name='T42 AI' content="Ez egy mesterséges inteligencia rendszer lesz, mely teljeskörű digitális asszisztensként funkcionál, emellett mely segít a vak és mozgáskorlátozott embereknek. 2019 óta dolgozom rajta." image={JarvisAI} demo='#demo' codeUrl='#code' />
         </div>
       </div>
     </div>

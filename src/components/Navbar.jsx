@@ -46,6 +46,11 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
+          <Link to='T42' smooth={true} duration={500}>
+            T42
+          </Link>
+        </li>
+        <li>
           <Link to='timeln' smooth={true} duration={500}>
             Eredményeim
           </Link>
@@ -65,21 +70,16 @@ const Navbar = () => {
             Kapcsolat
           </Link>
         </li>
-        <li>
-          <Link to='T42' smooth={true} duration={500}>
-            T42
-          </Link>
-        </li>
         </ul>
       </div>
 
       {/* Hamburger*/}
-      <div onClick={handleClick} className="md:hidden z-10">
+      <div onClick={handleClick} className="md:hidden z-[12]">
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
       {/* Mobile menu*/}
-      <ul className={!nav ? "hidden" : "absolute top-0 left-0 w-full h-screen bg-mobileMenuColor text-menuText flex flex-col justify-center items-center backdrop-blur "}>
+      <ul className={!nav ? "hidden" : "absolute top-0 left-0 w-full h-screen bg-mobileMenuColor text-menuText flex flex-col justify-center items-center backdrop-blur z-[11]"}>
       <li className='py-6 text-4xl'>
           <Link onClick={handleClick} to='home' smooth={true} duration={500}>
             Ki vagyok?
@@ -89,6 +89,18 @@ const Navbar = () => {
           {' '}
           <Link onClick={handleClick} to='about' smooth={true} duration={500}>
             Rólam
+          </Link>
+        </li>
+        <li className='py-6 text-4xl'>
+          {' '}
+          <Link onClick={handleClick} to='T42' smooth={true} duration={500}>
+            T42
+          </Link>
+        </li>
+        <li className='py-6 text-4xl'>
+          {' '}
+          <Link onClick={handleClick} to='timeln' smooth={true} duration={500}>
+            Eredményeim
           </Link>
         </li>
         <li className='py-6 text-4xl'>
@@ -107,12 +119,6 @@ const Navbar = () => {
           {' '}
           <Link onClick={handleClick} to='contact' smooth={true} duration={500}>
             Kapcsolat
-          </Link>
-        </li>
-        <li className='py-6 text-4xl'>
-          {' '}
-          <Link onClick={handleClick} to='t42' smooth={true} duration={500}>
-            T42
           </Link>
         </li>
         </ul>

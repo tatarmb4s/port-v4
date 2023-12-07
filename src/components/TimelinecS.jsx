@@ -27,7 +27,7 @@ export default function TimelinecS() {
     {
       name: "T42 Projekt",
       content:
-        "Ez egy mesterséges inteligencia lesz, mely segít a vak, és mozgáskorlátozott embereknek, illetve az otthoni rendszreket vezérli. Egy aszisztens amely képes beszélni a Microsoft Azure segítségével. Egyedileg tanított gpt-3.5-turbo és gpt-4 modelleket használ majd.",
+        "Ez egy mesterséges inteligencia rendszer lesz, mely teljeskörű digitális asszisztensként funkcionál, emellett mely segít a vak és mozgáskorlátozott embereknek. 2019 óta dolgozom rajta.",
       image: t42ai,
       codeUrl: "",
       demo: "https://ai.t42.hu/",
@@ -91,7 +91,7 @@ export default function TimelinecS() {
   ];
 
   return (
-    <div name='timeln' className="w-full  bg-background text-gray-300 szunet">
+    <div name='timeln' className="w-full min-h-screen mt-52 mb-32 md:mb-96 md:mt-60 lg:mt-0 bg-background text-gray-300 szunet">
       <hr className="elvalaszto w-[50%]" />
       <div className="flex flex-col justify-center items-center w-full ">
         <div className="sm:text-right pb-[6rem] pl-4">
