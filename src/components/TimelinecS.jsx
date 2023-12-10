@@ -14,7 +14,7 @@ import {
 import njit from "../assets/Neumann_Janos_Informatikai_Technikum.webp";
 import fp from "../assets/FizetesiPont.png";
 import nokia from "../assets/nokia.jfif";
-import t42ai from "../assets/t42ai.png";
+import t42cloud from "../assets/t42-cloud.png";
 import hajo from "../assets/hajo.png";
 import sally from "../assets/sally.png";
 import PowerShellPrew from "../assets/PowerShellPrew.png";
@@ -27,34 +27,10 @@ export default function TimelinecS() {
     {
       name: "T42 Projekt",
       content:
-        "Ez egy mesterséges inteligencia rendszer lesz, mely teljeskörű digitális asszisztensként funkcionál, emellett mely segít a vak és mozgáskorlátozott embereknek. 2019 óta dolgozom rajta.",
-      image: t42ai,
+        "Ez egy mesterséges intelligencia rendszer lesz, mely teljeskörű digitális asszisztensként funkcionál, emellett mely segít a vak és mozgáskorlátozott embereknek. A cégeknek lehetőségük lesz használni belső védett adataikat benne, annélkül, hogy azok kikerülnének az internetre.",
+      image: t42cloud,
       codeUrl: "",
       demo: "https://ai.t42.hu/",
-    },
-    {
-      name: "Fizetési Pont Terminálüzemeltető Kft.",
-      content:
-        "Itt dolgozom 2022-től, folyamatfejlesztőként. Legtöbbet a WorkflowGen rendszerrel foglalkoztam, és tanítottam be a kollégákat is. Emellett a cég életét könnyítő scripteket írtam, és egy RPA Robotot, mely segít megfékezni, és időben észrevenni egy támadást a kártyarendszer ellen.",
-      image: fp,
-      codeUrl: "",
-      demo: "https://fizetesipont.hu",
-    },
-    {
-      name: "Nokia Hackaton 2023",
-      content:
-        "A NOKIA által magyar országon meghírdetett Hackaton versenyen küldöndíjat kaptam OpenAI GPT-3.5-turbo modell használata és tanítása miatt. A feladat, egy Pizza rendelő chatbot készítése volt. Emellett még készítettem Snake rekreációt és Double generátort is.",
-      image: nokia,
-      codeUrl: "https://github.com/tatarmb4s/hck-2023",
-      demo: "https://www.youtube.com/watch?v=gEa2xLy4xS0",
-    },
-    {
-      name: "Szelektív üveggyűjtés - okos kuka",
-      content:
-        "Comper egy alkalmazásból, okos kukából, ahhoz tartozó kezelő felületből, és egy weboldalból áll. Az alkalmazásban pontokat gyűjthetünk, melyeket beválthatunk különböző jutalmakra. A pontokkal versenyezhetünk az több szinten. Az iskola hirdethet különleges időszakot is, melyben többet érhet egy bedobás. Kooperáció: Balogh Levente, Takács Zoltán",
-      image: sally,
-      codeUrl: "",
-      demo: "",
     },
     {
       name: "Kétszemélyes Torpedó",
@@ -65,9 +41,17 @@ export default function TimelinecS() {
       demo: "http://torpedo.t42.hu/",
     },
     {
-      name: "PowerShell",
+      name: "Szelektív üveggyűjtés - okos kuka",
       content:
-        "Ez egy PowerShell script gyűjtemény, amely segít automatizálni a Windows renszert, adatokat kinyerni belőle.",
+        "A Comper (más néven nevén: Sally) egy iskolákon belüli szelektív szemétgyűjtésre buzdító projekt. Ez egy alkalmazásból, okos kukából, ahhoz tartozó kezelő felületből, és egy weboldalból áll. Az alkalmazásban pontokat gyűjthetünk, melyeket beválthatunk különböző jutalmakra. A pontokkal versenyezhetünk több szinten. Az iskola hirdethet különleges időszakot is, melyben többet érhet egy bedobás. Kooperáció: Balogh Levente, Takács Zoltán",
+      image: sally,
+      codeUrl: "",
+      demo: "",
+    },
+    {
+      name: "PowerShell scriptek",
+      content:
+        "A saját PowerShell script gyűjteményem segít automatizálni és adatokat kinyerni a Windows rendszerből. Pl. Akkumulátor töltés figyelő, AutoTyper, ComputerInfo+WiFiData, stb.",
       image: PowerShellPrew,
       codeUrl: "https://github.com/tatarmb4s/PowerShellScripts",
       demo: "",
@@ -75,15 +59,31 @@ export default function TimelinecS() {
     {
       name: "Codászok: Kábelek",
       content:
-        "Egy iskolai projekt, amelyben ismertetjük a hétköznapokban használt kábelek leggtöbbjét. Három társammal írtuk a szöveget.",
+        "Egy iskolai projekt, amelyben ismertetjük a hétköznapokban használt kábelek legtöbbjét. Három társammal írtuk a szöveget.",
       image: KabelekPrew,
       codeUrl: "https://github.com/tatarmb4s/codaszok-kabelek",
       demo: "https://kabelek_codaszok.tatarmb.hu/",
     },
     {
+      name: "Fizetési Pont Terminálüzemeltető Kft.",
+      content:
+        "Itt dolgoztam 2022-ben és 2023 elején, folyamatfejlesztőként. Legtöbbet a WorkflowGen rendszerrel foglalkoztam, és tanítottam be a kollégákat is. Emellett a cég életét könnyítő scripteket és egy RPA Robotot írtam, mely segít megfékezni, és időben észre venni egy támadást a kártyarendszer ellen.",
+      image: fp,
+      codeUrl: "",
+      demo: "https://fizetesipont.hu",
+    },
+    {
+      name: "Nokia Hackathon 2023",
+      content:
+        "A NOKIA által Magyarországon meghirdetett Hackathon versenyen különdíjat kaptam OpenAI GPT-3.5-turbo modell használatáért és betanításáért. A feladat, egy Pizza rendelő chatbot készítése volt. Emellett még készítettem Snake rekreációt és Double generátort is.",
+      image: nokia,
+      codeUrl: "https://github.com/tatarmb4s/hck-2023",
+      demo: "https://www.youtube.com/watch?v=gEa2xLy4xS0",
+    },
+    {
       name: "Neumann János Informatikai Technikum",
       content:
-        "2021-ben nyertem felvételt, ahol jelenleg is tanulok szoftverfejlesztő - tesztelő szakon.",
+        "2021-ben nyertem felvételt, ahol jelenleg is tanulok okleveles Szoftverfejlesztő és -tesztelő szakon.",
       image: njit,
       codeUrl: "",
       demo: "",
@@ -98,7 +98,7 @@ export default function TimelinecS() {
       
           <div>
               <p className='secondary-title'>Eredményeim</p>
-              <p className='py-4'>Iskolák, Versenyek, Projektek, és Munkahelyek</p>
+              <p className='py-4'>Projektek, Versenyek, Munkahelyek, Iskolák</p>
           </div>
         </div>
         <div className="md:w-[32rem]  w-[23rem] text-gray-300">
@@ -116,10 +116,10 @@ export default function TimelinecS() {
                   </Typography>
                 </TimelineHeader>
                 <TimelineBody className="pb-8">
-                  <Typography color="gary" className="font-normal text-gray-300">
+                  <Typography color="" className="font-normal text-gray-300">
                     {munka.content}
                 
-                  
+                    <br />
                     {munka.codeUrl != "" && (
                       <a href={munka.codeUrl} target="_blank">
                         <Button

@@ -11,7 +11,7 @@ const Work = () => {
     {
       name: "Jarvis AI",
       content:
-        "Egy aszisztens amely képes beszálni a Microsoft Azure segítségével.",
+        "Egy asszisztens amely képes beszélni a Microsoft Azure segítségével.",
       image: "",
       codeUrl: "",
       demo: "",
@@ -19,7 +19,7 @@ const Work = () => {
     {
       name: "Jarvis AI",
       content:
-        "Egy aszisztens amely képes beszálni a Microsoft Azure segítségével.",
+        "Egy asszisztens amely képes beszélni a Microsoft Azure segítségével.",
       image: "",
       codeUrl: "",
       demo: "",
@@ -27,7 +27,7 @@ const Work = () => {
     {
       name: "Jarvis AI",
       content:
-        "Egy aszisztens amely képes beszálni a Microsoft Azure segítségével.",
+        "Egy asszisztens amely képes beszélni a Microsoft Azure segítségével.",
       image: "",
       codeUrl: "",
       demo: "",
@@ -35,7 +35,7 @@ const Work = () => {
     {
       name: "Jarvis AI",
       content:
-        "Egy aszisztens amely képes beszálni a Microsoft Azure segítségével.",
+        "Egy asszisztens amely képes beszélni a Microsoft Azure segítségével.",
       image: "",
       codeUrl: "",
       demo: "",
@@ -112,13 +112,13 @@ const Work = () => {
           <Grigitem className="" name='PowerShell' content="Ez egy PowerShell script gyűjtemény, amely segít automatizálni a Windows renszert, adatokat kinyerni belőle." image={PowerShellPrew} demo='#' codeUrl='https://github.com/tatarmb4s/PowerShellScripts' target='_blank' isDemo={false} isSource={true} />
         </div>
         <div className="py-8">
-          <p className="py-6">Fejlesztés alatt álló főbb munkáim, amelyek még nincsenek készen, vagy még csak bétában vannak. Ezeknek a forráskódja nem elérhető egyenlőre.</p>
+          <p className="py-6">Fejlesztés alatt álló főbb munkáim, amelyek még nincsenek készen, vagy még csak bétában vannak. (Forráskódjuk egyenlőre nem elérhető.)</p>
         </div>
 
         {/* Container */}
         <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-4">
           <Grigitem className="" name='Kétszemélyes Torpedó' content="A klasszikus torpedó játék, csak a neten. Jelenleg két játékos játszhat vele stabilan. A játékba egy kód segítségével lehet belépni, melyet a meccset indító fél ad meg. Ezután a másik fél beírja a kódot. Mivel még előfordulnak benne bugok, ezeket kéretik nem kihasználni. " image={TorpedoGameplay} demo='http://torpedo.t42.hu/' codeUrl='#code' target='_blank' isDemo={true} isSource={false} />
-          <Grigitem className="" name='T42 AI' content="Ez egy mesterséges inteligencia rendszer lesz, mely teljeskörű digitális asszisztensként funkcionál, emellett mely segít a vak és mozgáskorlátozott embereknek. 2019 óta dolgozom rajta." image={JarvisAI} demo='#demo' codeUrl='#code' />
+          <Grigitem className="" name='T42 AI' content="Ez egy mesterséges intelligencia rendszer lesz, mely teljeskörű digitális asszisztensként funkcionál, emellett mely segít a vak és mozgáskorlátozott embereknek. A cégeknek lehetőségük lesz használni belső védett adataikat benne, annélkül, hogy azok kikerülnének az internetre." image={JarvisAI} demo='https://t42.hu/' isDemo={true} codeUrl='#code' />
         </div>
       </div>
     </div>

@@ -28,7 +28,7 @@ const Skills = () => {
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full '>
           <div>
               <p className='secondary-title'>Ismereteim</p>
-              <p className='py-4'>Ezen technológiákkal dolgoztam eddig. Az értékek ezen táblázat alapján lettek meghatározva: <a target='_blank' className='text-aiMsg1 underline underline-offset-4' href="https://dr-knz.net/programming-levels/prog-skill-matrix.png">Programming Levels</a></p>
+              <p className='py-4'>Az alábbi technológiákkal dolgoztam eddig, melyekben szintemet a következő táblázat alapján határoztam meg: <a target='_blank' className='text-aiMsg1 underline underline-offset-4' href="https://dr-knz.net/programming-levels/prog-skill-matrix.png" target="_blank">Programming Levels</a></p>
           </div>
 
           <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>

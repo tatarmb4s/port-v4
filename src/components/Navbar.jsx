@@ -20,8 +20,14 @@ const Navbar = () => {
     },
     {
       name: "Email",
-      url: "mailto:xyz@tmb.hu",
+      url: "mailto:tatar.matyas.bence@t42.hu",
       icon: "HiOutlineMail",
+      color: "#6fc2b0",
+    },
+    {
+      name: "LinkedIN",
+      url: "mailto:tatar.matyas.bence@t42.hu",
+      icon: "FaLinkedin",
       color: "#6fc2b0",
     },
   ];
@@ -124,19 +130,27 @@ const Navbar = () => {
         </ul>
 
        {/* Social icons */}
-       <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
+       <div className=' flex fixed flex-col top-[70vh] lg:top-[35%] right-0 lg:right-auto lg:left-0 opacity-100 lg:opacity-100'>
         <ul>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
+          <li className='w-[160px] h-[40px] lg:h-[60px] flex justify-between items-center mr-[-100px] hover:mr-[-10px] hover:bg-[#333333] lg:ml-[-100px] lg:hover:ml-[-10px] duration-300 lg:bg-[#333333]'>
             <a
-              className='flex justify-between items-center w-full text-gray-300'
+              className='flex justify-between items-center flex-row-reverse lg:flex-row w-full text-[#6e6e6e] hover:text-gray-300 lg:text-gray-300'
               href='https://github.com/tatarmb4s' target='_blank'
             >
               Github <FaGithub size={30} />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
+          <li className='w-[160px] h-[40px] lg:h-[60px] flex justify-between items-center mr-[-100px] hover:mr-[-10px] hover:bg-[#0a66c2] lg:ml-[-100px] lg:hover:ml-[-10px] duration-300 lg:bg-[#0a66c2]'>
             <a
-              className='flex justify-between items-center w-full text-gray-300'
+              className='flex justify-between items-center flex-row-reverse lg:flex-row w-full text-[#0a66c2] hover:text-gray-300 lg:text-gray-300'
+              href='https://www.linkedin.com/in/m%C3%A1ty%C3%A1s-bence-tat%C3%A1r-305a91280' target='_blank'
+            >
+              LinkedIn <FaLinkedin size={30} />
+            </a>
+          </li>
+          <li className='w-[160px] h-[40px] lg:h-[60px] flex justify-between items-center mr-[-100px] hover:mr-[-10px] hover:bg-[#6fc2b0] lg:ml-[-100px] lg:hover:ml-[-10px] duration-300 lg:bg-[#6fc2b0]'>
+            <a
+              className='flex justify-between items-center flex-row-reverse lg:flex-row w-full text-[#6fc2b0] hover:text-gray-300 lg:text-gray-300'
               href='mailto:tatar.matyas.bence4c@hotmail.com'
             >
               Email <HiOutlineMail size={30} />
