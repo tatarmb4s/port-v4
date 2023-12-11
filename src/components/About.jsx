@@ -13,7 +13,7 @@ const About = () => {
             </div>
             <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
                 <div className="sm:text-right text-2xl font-bold">
-                    <p>Kedves, proaktív, kitartó, nem hagyja félbe azt amibe belekezdett</p>
+                    <p>Kedves, proaktív, kitartó</p>
                 </div>
                 <div className="">
                     <p>Szinte minden érdekel, ami az IT-vel kapcsolatos, legyen az hardver vagy szoftver. 
