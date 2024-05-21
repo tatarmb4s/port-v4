@@ -91,7 +91,7 @@ export default function TimelinecS() {
   ];
 
   return (
-    <div name='timeln' className="w-full min-h-screen mt-52 mb-32 md:mb-96 md:mt-60 lg:mt-0 bg-background text-gray-300 szunet">
+    <div name='timeln' className="w-full  bg-background text-gray-300 szunet">
       <hr className="elvalaszto w-[50%]" />
       <div className="flex flex-col justify-center items-center w-full ">
         <div className="sm:text-right pb-[6rem] pl-4">

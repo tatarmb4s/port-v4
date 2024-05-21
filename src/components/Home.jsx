@@ -77,7 +77,7 @@ const Home = ({ handleChatToggle }) => {
 
 
   return (
-    <div name='home' className='w-full h-screen md:pt-auto bg-background szunet'>
+    <div name='home' className='w-full lg:h-screen md:pt-auto bg-background szunet'>
       {/*Container*/}
       <div className="max-w-[1000px] mx-auto px-8 pt-20 flex flex-col justify-center h-full">
         <p className='text-koszones'>Üdvözlöm a weboldalamon, nevem</p>

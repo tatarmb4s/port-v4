@@ -22,7 +22,7 @@ import cpp from "../assets/cpp.png";
 
 const Skills = () => {
   return (
-    <div name='skills' className='szunet w-full md:h-screen bg-mainColor text-gray-300 '>
+    <div name='skills' className='szunet w-full lg:h-screen bg-mainColor text-gray-300 '>
         <hr className="elvalaszto w-[30%]" />
       {/* Container */}
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full '>

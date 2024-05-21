@@ -98,7 +98,7 @@ const Work = () => {
   }
 
   return (
-    <div name="work" className="szunet w-full md:h-screen text-gray-300 bg-mainColor pt-48 sm:pt-0 ">
+    <div name="work" className="szunet w-full min-lg:h-screen text-gray-300 bg-mainColor pt-48 sm:pt-0 ">
       <hr className="elvalaszto w-[30%]" />
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8 mt-60">
