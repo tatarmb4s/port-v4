@@ -266,7 +266,7 @@ p {
     }
     /* Munkáim */
     .szunet:nth-child(9) {
-        padding-top: 0rem;
+        padding-top: 10rem;
         padding-bottom: 0;
     }
     /* Kapcsolat */
@@ -284,21 +284,40 @@ p {
 @media screen and (min-width: 1600px) {
     /*A menu alatti*/
     .szunet:nth-child(2) {
-        padding: auto;
+        padding: 10rem 0;
     }
     /*Rólam*/
     .szunet:nth-child(5) {
-        padding-top: auto;
-        padding-bottom: auto;
+        padding-top: 40rem;
+        padding-bottom: 17rem;
     }
     /*Ezennel bemutatom a T42.hu...*/
     .szunet:nth-child(6) {
-        padding-top: auto;
-        padding-bottom: auto;
+        padding-top: 20rem;
+        padding-bottom: 5rem;
     }
     /* Eredményeim */
     .szunet:nth-child(7) {
-        /* padding-bottom: 0; */
+        padding-top: 30rem;
+        padding-bottom: 15rem;
+    }
+    /* Ismereteim */
+    .szunet:nth-child(8) {
+        padding-top: 15rem;
+        padding-bottom: 0;
+    }
+    /* Munkáim */
+    .szunet:nth-child(9) {
+        padding-top: 5rem;
+        padding-bottom: 0;
+    }
+    /* Kapcsolat */
+    .szunet:nth-child(10) {
+        padding-top: 5rem;
+        padding-bottom: 0;
+    }
+    .elvalaszto {
+        display: none !important;
     }
   }
 
