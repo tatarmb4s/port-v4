@@ -21,6 +21,7 @@ import reacLogo from "../assets/react.png";
 import openaiLogo from "../assets/openai.png";
 import tailwindLogo from "../assets/tailwind.png";
 import cpp from "../assets/cpp.png";
+import M365 from "../assets/Microsoft_365.png";
 
 const skills = [
   { name: 'HTML', level: 'C1', src: HTML },
@@ -42,6 +43,7 @@ const skills = [
   { name: 'Open AI', level: 'C1', src: openaiLogo },
   { name: 'llama-index', level: 'C1', src: llama_index },
   { name: 'Arduino: C++', level: 'A2', src: cpp },
+  { name: 'Microsoft 365 Enterprise', level: 'B2', src: M365 },
 //   { name: 'Office', level: 'ECDL', src: Office },
   // Add all other skills here...
 ];
