@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.6ca10ffa.css",
-    "main.js": "/static/js/main.b578c850.js",
+    "main.css": "/static/css/main.656f1bee.css",
+    "main.js": "/static/js/main.da0c589a.js",
     "static/media/jarvis_crop.png": "/static/media/jarvis_crop.a50c775269edbd16aaab.png",
     "static/media/t42-cloud.png": "/static/media/t42-cloud.22dd3bf7ce607aa16e93.png",
     "static/media/PowerShellPrew.png": "/static/media/PowerShellPrew.84efbfc884b8ed66ec5a.png",
     "static/media/t42ai.png": "/static/media/t42ai.076abe941a9f87a8a4e2.png",
     "static/media/KabelekPrew.png": "/static/media/KabelekPrew.4809200e4664e92e9322.png",
     "static/media/nokia.jfif": "/static/media/nokia.397292afe0a95726a757.jfif",
+    "static/media/Microsoft_365.png": "/static/media/Microsoft_365.114c87d2d7f36d5ec116.png",
     "static/media/Neumann_Janos_Informatikai_Technikum.webp": "/static/media/Neumann_Janos_Informatikai_Technikum.bc61afe78bdbc777392d.webp",
     "static/media/hajo.png": "/static/media/hajo.4e6f43c934a6dbd92a67.png",
     "static/media/openai.png": "/static/media/openai.8b81e7d5c5c89fae4e37.png",
@@ -23,9 +24,11 @@
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/aws.png": "/static/media/aws.95bdee6b9922c9b94fd5.png",
     "static/media/node.png": "/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/typescript.png": "/static/media/typescript.52ea0bc40ba11d507e7d.png",
     "static/media/sally.png": "/static/media/sally.2ab2d76ef5e020f11b3b.png",
     "static/media/csharp.png": "/static/media/csharp.d7b6af576e15aed4f674.png",
     "static/media/github.png": "/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/nextjs.png": "/static/media/nextjs.76880876b2a222a09885.png",
     "static/media/html.png": "/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/tailwind.png": "/static/media/tailwind.e47ac876b8d4d0bba47a.png",
     "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
@@ -33,11 +36,11 @@
     "static/media/llama-index.png": "/static/media/llama-index.a9f82a75e05936a7a6bb.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.6ca10ffa.css.map": "/static/css/main.6ca10ffa.css.map",
-    "main.b578c850.js.map": "/static/js/main.b578c850.js.map"
+    "main.656f1bee.css.map": "/static/css/main.656f1bee.css.map",
+    "main.da0c589a.js.map": "/static/js/main.da0c589a.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ca10ffa.css",
-    "static/js/main.b578c850.js"
+    "static/css/main.656f1bee.css",
+    "static/js/main.da0c589a.js"
   ]
 }
