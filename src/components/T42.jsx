@@ -32,7 +32,7 @@ const T42 = ({ handleChatToggle }) => {
         </h1>
 
         {/* <h2 className='text-3xl sm:text-6xl font-bold text-head2'>IT Student at NJIT</h2> */}
-        <p className='text-head2 py-4 max-w-[700px]'>Röviden ismertetve, a cél első körben egy text-to-speech, speech-to-text, video-to-text modell családot létrehozni. Hosszútávú cél pedig egy text/voice/image/video-to-text/voice/image modell létrehozása. <br></br><br></br>  A rendszer rendelkezni fog az okos otthonok és a teljes értékű virtuális asszisztens minden funkciójával. Emellett segít majd a vak és mozgáskorlátozott embereknek is. Cégek számára is elérhető lesz, támogatva azt, hogy a belsős cégadatok ne kerüljenek ki. 2019 óta dolgozom rajta. <br></br><br></br> 
+        <p className='text-head2 py-4 max-w-[700px]'>Röviden ismertetve, a cél első körben egy text-to-speech, speech-to-text, video-to-text modell családot létrehozni. Hosszútávú célom pedig egy text/voice/image/video-to-text/voice/image modell létrehozása. <br></br><br></br>  A rendszer rendelkezni fog az okos otthonok és a teljes értékű virtuális asszisztens minden funkciójával. Emellett segít majd a vak és mozgáskorlátozott embereknek is. Cégek számára is elérhető lesz, támogatva azt, hogy a belsős cégadatok ne kerüljenek ki. 2019 óta dolgozom rajta. <br></br><br></br> 
         <ul>              
 
           <li><FontAwesomeIcon icon={faSquareCheck} className='ml-3 group-hover:hidden text-zold' /> Vállalati használatra alkalmas</li>

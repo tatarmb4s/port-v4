@@ -27,7 +27,7 @@ export default function TimelinecS() {
     {
       name: "T42 Projekt",
       content:
-        "Ez egy mesterséges intelligencia rendszer lesz, mely teljeskörű digitális asszisztensként funkcionál, emellett mely segít a vak és mozgáskorlátozott embereknek. A cégeknek lehetőségük lesz használni belső védett adataikat benne, annélkül, hogy azok kikerülnének az internetre.",
+        "Nagyjából olyan, mint a J.A.R.V.I.S. Ez egy mesterséges intelligencia rendszer, mely teljeskörű digitális asszisztensként funkcionál, emellett mely segít a vak és mozgáskorlátozott embereknek. A cégeknek lehetőségük lesz használni belső védett adataikat benne, annélkül, hogy azok kikerülnének az internetre.",
       image: t42cloud,
       codeUrl: "",
       demo: "https://ai.t42.hu/",
