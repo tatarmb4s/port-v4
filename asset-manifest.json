@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.656f1bee.css",
-    "main.js": "/static/js/main.0f322a1d.js",
+    "main.js": "/static/js/main.6c6df71c.js",
     "static/media/jarvis_crop.png": "/static/media/jarvis_crop.a50c775269edbd16aaab.png",
     "static/media/t42-cloud.png": "/static/media/t42-cloud.22dd3bf7ce607aa16e93.png",
     "static/media/PowerShellPrew.png": "/static/media/PowerShellPrew.84efbfc884b8ed66ec5a.png",
@@ -13,6 +13,7 @@
     "static/media/hajo.png": "/static/media/hajo.4e6f43c934a6dbd92a67.png",
     "static/media/openai.png": "/static/media/openai.8b81e7d5c5c89fae4e37.png",
     "static/media/jarvis.jpg": "/static/media/jarvis.29e134782a0e00552805.jpg",
+    "static/media/oauth2.png": "/static/media/oauth2.827cf16bd5beea517840.png",
     "static/media/Microsoft_Azure.svg.png": "/static/media/Microsoft_Azure.svg.27603aaf1cc44b44deae.png",
     "static/media/python.png": "/static/media/python.f0c9d64775aac23759fe.png",
     "static/media/TorpedoGameplay.png": "/static/media/TorpedoGameplay.61e1e786e13c0e2a23fa.png",
@@ -33,14 +34,16 @@
     "static/media/tailwind.png": "/static/media/tailwind.e47ac876b8d4d0bba47a.png",
     "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/PowerShell.png": "/static/media/PowerShell.a1657fd7d26235a2fa2c.png",
+    "static/media/proxmox.png": "/static/media/proxmox.5eb3ca28e0b72ac39470.png",
     "static/media/llama-index.png": "/static/media/llama-index.a9f82a75e05936a7a6bb.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "static/media/trpc.svg": "/static/media/trpc.3d4a6c2351fd3f5954be33b24e2dd013.svg",
     "index.html": "/index.html",
     "main.656f1bee.css.map": "/static/css/main.656f1bee.css.map",
-    "main.0f322a1d.js.map": "/static/js/main.0f322a1d.js.map"
+    "main.6c6df71c.js.map": "/static/js/main.6c6df71c.js.map"
   },
   "entrypoints": [
     "static/css/main.656f1bee.css",
-    "static/js/main.0f322a1d.js"
+    "static/js/main.6c6df71c.js"
   ]
 }
