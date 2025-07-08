@@ -22,16 +22,26 @@ import openaiLogo from "../assets/openai.png";
 import tailwindLogo from "../assets/tailwind.png";
 import cpp from "../assets/cpp.png";
 import M365 from "../assets/Microsoft_365.png";
+import trpc from '../assets/trpc.svg'
+import Bun from "../assets/bun.png"
+import OpenIDC from "../assets/openidc.png"
+import OAuth2 from "../assets/oauth2.png"
+import ShadCN from "../assets/shadcn.png"
+import Coolify from "../assets/coolify-logo.png"
+import Proxmox from "../assets/proxmox.png"
 
 const skills = [
   { name: 'HTML', level: 'C1', src: HTML },
   { name: 'CSS', level: 'C1', src: CSS },
   { name: 'JavaScript', level: 'C1', src: JavaScript },
-  { name: 'TypeScript', level: 'B2', src: TypeScript },
+  { name: 'TypeScript', level: 'C1', src: TypeScript },
   { name: 'NextJS', level: 'B2', src: NextJS },
-  { name: 'Node JS', level: 'C1', src: Node },
   { name: 'React JS', level: 'B2', src: reacLogo },
+  { name: 'tRPC', level: 'A2', src: trpc },
+  { name: 'ShadCN', level: 'B2', src: ShadCN },
   { name: 'Tailwind CSS', level: 'C1', src: tailwindLogo },
+  { name: 'bun.sh', level: 'B2', src: Bun },
+  { name: 'Node JS', level: 'C1', src: Node },
   { name: 'GitHub', level: 'C1', src: GitHub },
   { name: 'Microsoft Azure', level: 'B2', src: Azure },
   { name: 'C#', level: 'C1', src: Csharp },
@@ -44,6 +54,10 @@ const skills = [
   { name: 'llama-index', level: 'C1', src: llama_index },
   { name: 'Arduino: C++', level: 'A2', src: cpp },
   { name: 'Microsoft 365 Enterprise', level: 'B2', src: M365 },
+  { name: 'OpenID Connect (FAPI 2.0)', level: 'B2', src: OpenIDC },
+  { name: 'OAuth 2.1 (FAPI 2.0)', level: 'B2', src: OAuth2 },
+  { name: 'Coolify', level: 'A2', src: Coolify },
+  { name: 'Proxmox', level: 'A2', src: Proxmox },
 //   { name: 'Office', level: 'ECDL', src: Office },
   // Add all other skills here...
 ];

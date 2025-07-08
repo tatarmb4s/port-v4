@@ -4,7 +4,7 @@ import io, { Socket } from "socket.io-client";
 let socket: Socket;
 
 export const connectSocket = () => {
-    socket = io("https://ws.t42.hu:4120");
+    socket = io("https://ws.t42.hu/");
 };
 
 export const getSocket = () => socket;
