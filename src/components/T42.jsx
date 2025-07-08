@@ -28,7 +28,7 @@ const T42 = ({ handleChatToggle }) => {
           T42<span className="text-3xl">.hu</span>
         </h1>
         <h1 class="text-4xl font-bold bg-gradient-to-r from-blue-400 via-pink-500 to-red-500 bg-clip-text text-transparent">
-          Multi modell systemet
+          Multi Modell Systemet
         </h1>
 
         {/* <h2 className='text-3xl sm:text-6xl font-bold text-head2'>IT Student at NJIT</h2> */}

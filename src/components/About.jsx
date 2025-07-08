@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-scroll';
 
 const About = () => {
   return (
@@ -21,9 +22,22 @@ const About = () => {
                         Tudok LEGO EV3 robotot programozni, mellyel részt vettem a 2019-es WRO (World Robot Olimpic) verseny mellett más robotversenyen is.
                         <br />
                         <br />
-                        Jelenleg többnyire valamilyen mesterséges intelligencia alapú projekt fejlesztésében veszek részt, melyeket többnyire Pythonban írok. A mesterséges intelligencián belül a text-to-speech és a speech-to text, a large-language modellek, és az image-to-text technológia. Célom, ezekben minnél több tudást és tapasztalatot szerezni.
+                        Jelenleg többnyire valamilyen magas szintű biztonsági követelményeket teljesítő mesterséges intelligencia alapú projekt fejlesztésében veszek részt, melyeket többnyire TypeScriptben írok. A mesterséges intelligencián belül a text-to-speech és a speech-to text, a large-language modellek, és az image-to-text technológia. Célom, ezekben minnél több tudást és tapasztalatot szerezni.
                     </p>
                 </div>
+            </div>
+            
+            <div className="mt-8">
+                <Link to='skills' smooth={true} duration={500}>
+                    <button className='text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-head1 hover:border-head1 duration-150'>
+                        Ismereteimet részletesen itt láthatja
+                        <span className='group-hover:rotate-90 group-hover:mt-[-9px] group-hover:ml-[9px] duration-150'>
+                            <svg className="ml-3 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                            </svg>
+                        </span>
+                    </button>
+                </Link>
             </div>
 
         </div>
