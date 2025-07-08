@@ -111,7 +111,7 @@ const ChatPanel = () => {
       headers: myHeaders,
       redirect: 'follow'
     };
-    fetch(`https://chatapi.tatarmb.hu:46927/api/ChatEnter/?ipa=${encodeURIComponent(ipA)}&ipd=${encodeURIComponent(ipDJSON)}`, requestOptions)
+    fetch(`https://chatapi.tatarmb.hu/api/ChatEnter/?ipa=${encodeURIComponent(ipA)}&ipd=${encodeURIComponent(ipDJSON)}`, requestOptions)
     .catch(error => console.log('error', error));
     isSendedOneceChatPanel = true;
   }
@@ -152,7 +152,7 @@ const ChatPanel = () => {
   //      }
 
   //     // fetch(`http://127.0.0.1:4069/api/bot/?text=${uzik}`, requestOptions)
-  //     fetch(`https://chatapi.tatarmb.hu:46927/api/bot/?text=${encodeURIComponent(uzik)}&ipa=${encodeURIComponent(ipA)}&ipd=${encodeURIComponent(ipDJSON)}`, requestOptions)
+  //     fetch(`https://chatapi.tatarmb.hu/api/bot/?text=${encodeURIComponent(uzik)}&ipa=${encodeURIComponent(ipA)}&ipd=${encodeURIComponent(ipDJSON)}`, requestOptions)
   //       .then(response => response.text())
   //       .then(result => 
 
