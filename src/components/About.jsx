@@ -18,11 +18,11 @@ const About = () => {
                 </div>
                 <div className="">
                     <p>Szinte minden érdekel, ami az IT-vel kapcsolatos, legyen az hardver vagy szoftver. 
-                        9 éves korom óta tanulok programozni, alapesetben Windows OS-t futtató számítógépen. Írtam programot C#-ban, scriptet PowerShell-ben és MS-SQL-ben. Tudok programozni JavaScriptben, Pythonban és C#-ban.
+                        9 éves korom óta tanulok programozni, alapesetben Windows OS-t futtató számítógépen. Írtam programot C#-ban, scriptet PowerShell-ben és MS-SQL-ben. Tudok programozni TypeScriptben, C#-ban és Pythonban.
                         Tudok LEGO EV3 robotot programozni, mellyel részt vettem a 2019-es WRO (World Robot Olimpic) verseny mellett más robotversenyen is.
                         <br />
                         <br />
-                        Jelenleg többnyire valamilyen magas szintű biztonsági követelményeket teljesítő mesterséges intelligencia alapú projekt fejlesztésében veszek részt, melyeket többnyire TypeScriptben írok. A mesterséges intelligencián belül a text-to-speech és a speech-to text, a large-language modellek, és az image-to-text technológia. Célom, ezekben minnél több tudást és tapasztalatot szerezni.
+                        Jelenleg többnyire valamilyen magas szintű biztonsági követelményeket teljesítő mesterséges intelligencia alapú projekt fejlesztésében veszek részt, melyeket többnyire TypeScriptben írok. A mesterséges intelligencián belül a text-to-speech és a speech-to text, a large-language modellek, és az image-to-text technológiák vonzanak. Célom, ezekben minnél több tudást és tapasztalatot szerezni.
                     </p>
                 </div>
             </div>
