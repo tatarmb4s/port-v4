@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.35345e21.css",
-    "main.js": "/static/js/main.21659f29.js",
+    "main.css": "/static/css/main.9c99fb19.css",
+    "main.js": "/static/js/main.7cde27de.js",
     "static/media/jarvis_crop.png": "/static/media/jarvis_crop.a50c775269edbd16aaab.png",
     "static/media/t42-cloud.png": "/static/media/t42-cloud.22dd3bf7ce607aa16e93.png",
     "static/media/PowerShellPrew.png": "/static/media/PowerShellPrew.84efbfc884b8ed66ec5a.png",
@@ -39,11 +39,11 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "static/media/trpc.svg": "/static/media/trpc.3d4a6c2351fd3f5954be33b24e2dd013.svg",
     "index.html": "/index.html",
-    "main.35345e21.css.map": "/static/css/main.35345e21.css.map",
-    "main.21659f29.js.map": "/static/js/main.21659f29.js.map"
+    "main.9c99fb19.css.map": "/static/css/main.9c99fb19.css.map",
+    "main.7cde27de.js.map": "/static/js/main.7cde27de.js.map"
   },
   "entrypoints": [
-    "static/css/main.35345e21.css",
-    "static/js/main.21659f29.js"
+    "static/css/main.9c99fb19.css",
+    "static/js/main.7cde27de.js"
   ]
 }
