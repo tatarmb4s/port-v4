@@ -9,11 +9,9 @@ import Hrole from "./components/Hrole";
 import TimelinecS from "./components/TimelinecS";
 import MaterialBar from "./components/MaterialBar";
 import ParentComponent from "./components/ParentComponent";
-import { connectSocket } from "./components/WebSocketClient.ts";
 import Providers from "./components/Providers.tsx";
 import T42 from "./components/T42";
 
-connectSocket();
 
 
 function App() {

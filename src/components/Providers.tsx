@@ -2,7 +2,6 @@
 import { MessagesProvider } from "../context/messages.tsx";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { FC, ReactNode, useEffect, useState } from "react";
-import { getSocket } from "./WebSocketClient";
 import React from "react";
 
 

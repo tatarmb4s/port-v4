@@ -1,4 +1,5 @@
-import React, { useState, useEffect, useRef  } from 'react'
+import React, { useEffect } from 'react'
+import { backendUrl } from './WebSocketClient.ts';
 import {HiArrowNarrowRight} from 'react-icons/hi'
 import { Link } from 'react-scroll';
 // import ChatPanel from './ChatPanel2';
@@ -7,74 +8,14 @@ import { faRobot } from '@fortawesome/free-solid-svg-icons'
 
 let isSendedOnece = false;
 const Home = ({ handleChatToggle }) => {
-  const dater = JSON.parse(localStorage.getItem('data'));
-  let isExpired = false;
-  if (dater === null) {
-    const data = {
-      value: 'your data here',
-      expiry: new Date().getTime() + 2 * 60 * 60 * 1000 // 2 hours from now
-    };
-    localStorage.setItem('data', JSON.stringify(data));
-    isExpired = true;
-  } else if (dater.expiry < new Date().getTime()) {
-    isExpired = true;
-  }
-  else {
-    isExpired = false;
-    let ipA = localStorage.getItem('ipA');
-    let ipD = localStorage.getItem('ipD');
-    let ipDJSON = localStorage.getItem('ipDJSON');
-    
-    if (!isSendedOnece) {
-      console.log("isSendedOnece");
-      var myHeaders = new Headers();
-      var requestOptions = {
-        method: 'GET',
-        headers: myHeaders,
-        redirect: 'follow'
-      };
-      fetch(`https://chatapi.tatarmb.hu/api/Visit/?ipa=${encodeURIComponent(ipA)}&ipd=${encodeURIComponent(ipDJSON)}`, requestOptions)
-      .catch(error => console.log('error', error));
-      isSendedOnece = true;
-    }
-  }
-  if (!isSendedOnece | localStorage.getItem('ipA') === null | localStorage.getItem('ipA') === "Limit elérve az ip címre" && isExpired) {
-    
-    let ipA = "0.0.0.0"
-    let ipD = "alma";
-    let ipDJSON = "alma";
-    fetch('https://api.ipregistry.co/?key=74689t4e6vggpsua&hostname=true')
-    .then(res => res.json())
-    .then(res => {
-      if (res.code === "TOO_MANY_REQUESTS") {
-        localStorage.setItem('ipA', "Limit elérve az ip címre");
-      } else {
-        let ip = JSON.stringify(res.ip);
-        ipA = res.ip;
-        let host = JSON.stringify(res.hostname);
-        let brw = JSON.stringify(res.user_agent.header);
-        let l = JSON.stringify(res.location);
-        ipD = (JSON.stringify(res));
-        ipD = ip+host+brw+l;
-        // console.log(ipD);
-        ipDJSON = JSON.stringify(res);
-        localStorage.setItem('ipA', res.ip);
-        localStorage.setItem('ipD', JSON.stringify(res));
-        localStorage.setItem('ipDJSON', JSON.stringify(res));
-        var myHeaders = new Headers();
-        var requestOptions = {
-          method: 'GET',
-          headers: myHeaders,
-          redirect: 'follow'
-        };
-        fetch(`https://chatapi.tatarmb.hu/api/Visit/?ipa=${encodeURIComponent(ipA)}&ipd=${encodeURIComponent(ipDJSON)}`, requestOptions)
-        .catch(error => console.log('error', error));
-      }
-    });
+  useEffect(() => {
+    if (isSendedOnece) return;
     isSendedOnece = true;
-              
-  }
-
+    fetch(backendUrl + '/visit', {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ path: window.location.pathname }),
+    }).catch(() => { /* Visit logging must not prevent browsing the portfolio. */ });
+  }, []);
 
   return (
     <div name='home' className='w-full lg:h-screen md:pt-auto bg-background szunet'>

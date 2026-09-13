@@ -98,11 +98,11 @@ const Work = () => {
   }
 
   return (
-    <div name="work" className="szunet w-full min-lg:h-screen text-gray-300 bg-mainColor pt-48 sm:pt-0 ">
+    <div name="work" className="szunet w-full min-lg:h-screen text-gray-300 bg-mainColor pt-52 sm:pt-0 lg:mt-44">
       <hr className="elvalaszto w-[30%]" />
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8 mt-60">
-          <p className="secondary-title">Munkáim</p>
+          <p className="secondary-title ">Munkáim</p>
           <p className="py-6">Eddig elkészült projektjeim, melyeket az iskolában, vagy saját magam szórakoztatására készítettem.</p>
         </div>
 
