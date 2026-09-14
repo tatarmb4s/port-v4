@@ -19,11 +19,20 @@ import hajo from "../assets/hajo.png";
 import sally from "../assets/sally.png";
 import PowerShellPrew from "../assets/PowerShellPrew.png";
 import KabelekPrew from "../assets/KabelekPrew.png";
+import ECAS from "../assets/ecas.png";
 
 
 export default function TimelinecS() {
 
   const munkaim = [
+    {
+      name: "T42 ECAS - Enterprise-grade CoAutomation Systems",
+      content:
+        "Egy forradalmian új HELYBEN FUTTATOTT megoldás az email-ek automatikus szortírozására és mappákba sorolására, azok tartalmi jelentése alapján, a meglévő emailkeretrendszert felhasználva. Gyorsabb és pontosabbb keresés, akár napi 20 perc és évi 80 óra megtakarítás. Jelenleg több mint 10 egymástól föggetlenül scalelhető microservice alkotja, melyek Kafka buson keresztül kommunikálnak.",
+      image: ECAS,
+      codeUrl: "",
+      demo: "https://t42ecas.eu/",
+    },
     {
       name: "T42 Projekt",
       content:
@@ -41,12 +50,12 @@ export default function TimelinecS() {
       demo: "http://torpedo.t42.hu/",
     },
     {
-      name: "Szelektív üveggyűjtés - okos kuka",
+      name: "Szelektív üveggyűjtés - okos kuka (ma már GreenForge)",
       content:
-        "A Comper (más néven nevén: Sally) egy iskolákon belüli szelektív szemétgyűjtésre buzdító projekt. Ez egy alkalmazásból, okos kukából, ahhoz tartozó kezelő felületből, és egy weboldalból áll. Az alkalmazásban pontokat gyűjthetünk, melyeket beválthatunk különböző jutalmakra. A pontokkal versenyezhetünk több szinten. Az iskola hirdethet különleges időszakot is, melyben többet érhet egy bedobás. Kooperáció: Balogh Levente, Takács Zoltán",
+        "A Comper (más néven nevén: Sally) egy iskolákon belüli szelektív szemétgyűjtésre buzdító projekt. Ez egy alkalmazásból, okos kukából, ahhoz tartozó kezelő felületből, és egy weboldalból áll. Az alkalmazásban pontokat gyűjthetünk, melyeket beválthatunk különböző jutalmakra. A pontokkal versenyezhetünk több szinten. Az iskola hirdethet különleges időszakot is, melyben többet érhet egy bedobás. Kooperáció: Balogh Levente, Takács Zoltán. Bár én kiléptem a csapatból időközben kinőtte magát a GreenForge-á, melyről itt olvashatnak bővebben:",
       image: sally,
       codeUrl: "",
-      demo: "",
+      demo: "https://greenforge.hu/",
     },
     {
       name: "PowerShell scriptek",
@@ -83,7 +92,7 @@ export default function TimelinecS() {
     {
       name: "Neumann János Informatikai Technikum",
       content:
-        "2021-ben nyertem felvételt, ahol jelenleg is tanulok okleveles Szoftverfejlesztő és -tesztelő szakon.",
+        "2021-ben nyertem felvételt, 2026 ban végeztem Okleveles Szoftverfejlesztő és -tesztelőként 96%-os eredménnyel.",
       image: njit,
       codeUrl: "",
       demo: "",
