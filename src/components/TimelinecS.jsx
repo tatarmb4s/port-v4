@@ -28,7 +28,7 @@ export default function TimelinecS() {
     {
       name: "T42 ECAS - Enterprise-grade CoAutomation Systems",
       content:
-        "Egy forradalmian új HELYBEN FUTTATOTT megoldás az email-ek automatikus szortírozására és mappákba sorolására, azok tartalmi jelentése alapján, a meglévő emailkeretrendszert felhasználva. Gyorsabb és pontosabbb keresés, akár napi 20 perc és évi 80 óra megtakarítás. Jelenleg több mint 10 egymástól föggetlenül scalelhető microservice alkotja, melyek Kafka buson keresztül kommunikálnak.",
+        "Egy forradalmian új HELYBEN FUTTATOTT megoldás az email-ek automatikus szortírozására és mappákba sorolására, azok tartalmi jelentése alapján, a meglévő emailkeretrendszert felhasználva. Gyorsabb és pontosabbb keresés, akár napi 20 perc és évi 80 óra megtakarítás. Jelenleg több mint 10 egymástól föggetlenül scalelhető microservice alkotja, melyek Kafka buson keresztül kommunikálnak. A projektet beválogatták 2025-ben TOP100 Magyar Mesterséges Intelligencia Innováció közé (2026os kiadású újság, 150. oldal).",
       image: ECAS,
       codeUrl: "",
       demo: "https://t42ecas.eu/",

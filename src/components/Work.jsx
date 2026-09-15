@@ -118,8 +118,8 @@ const Work = () => {
 
         {/* Container */}
         <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-4">
+          <Grigitem className="" name='T42 ECAS' content="Egy forradalmian új HELYBEN FUTTATOTT megoldás az email-ek automatikus szortírozására és mappákba sorolására, azok tartalmi jelentése alapján, a meglévő emailkeretrendszert felhasználva. Gyorsabb és pontosabbb keresés, akár napi 20 perc és évi 80 óra megtakarítás. 2026. Magyar TOP100 megjelenés." image={JarvisAI} demo='https://t42ecas.eu/' isDemo={true} target='_blank' codeUrl='#code' />
           <Grigitem className="" name='T42 AI' content="Ez egy mesterséges intelligencia rendszer lesz, mely teljeskörű digitális asszisztensként funkcionál, emellett mely segít a vak és mozgáskorlátozott embereknek. A cégeknek lehetőségük lesz használni belső védett adataikat benne, annélkül, hogy azok kikerülnének az internetre." image={JarvisAI} demo='https://ai.t42.hu/' target='_blank' isDemo={true} codeUrl='#code' />
-          <Grigitem className="" name='T42 ECAS' content="Egy forradalmian új HELYBEN FUTTATOTT megoldás az email-ek automatikus szortírozására és mappákba sorolására, azok tartalmi jelentése alapján, a meglévő emailkeretrendszert felhasználva. Gyorsabb és pontosabbb keresés, akár napi 20 perc és évi 80 óra megtakarítás." image={JarvisAI} demo='https://t42ecas.eu/' isDemo={true} target='_blank' codeUrl='#code' />
         </div>
       </div>
     </div>
