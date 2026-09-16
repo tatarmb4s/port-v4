@@ -68,3 +68,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Visitor geolocation
+
+Set REACT_APP_IPREGISTRY_API_KEY in the frontend build environment or ignored .env.production.local before building. This is a public browser key; restrict its origins and quotas in IPRegistry. The browser collects its own public-IP details once per page load and forwards them to the backend with visits and Socket.IO connection auth. Lookup failures time out after five seconds and do not stop browsing or chat. Discord credentials remain backend-only.

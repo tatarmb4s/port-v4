@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import { backendUrl } from './WebSocketClient.ts';
+import { reportVisit } from '../visitorGeolocation';
 import {HiArrowNarrowRight} from 'react-icons/hi'
 import { Link } from 'react-scroll';
 // import ChatPanel from './ChatPanel2';
@@ -11,10 +12,7 @@ const Home = ({ handleChatToggle }) => {
   useEffect(() => {
     if (isSendedOnece) return;
     isSendedOnece = true;
-    fetch(backendUrl + '/visit', {
-      method: 'POST', headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ path: window.location.pathname }),
-    }).catch(() => { /* Visit logging must not prevent browsing the portfolio. */ });
+    void reportVisit(backendUrl, window.location.pathname);
   }, []);
 
   return (
